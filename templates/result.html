@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Classification Result</title>
+  </head>
+  <body>
+    <h1>Image Classification Result</h1>
+    {% if result %}
+      <p>The image is classified as: {{ result }}</p>
+    {% else %}
+      <p>Sorry, we could not classify the image.</p>
+    {% endif %}
+    <img src="{{ image }}" alt="Uploaded image" width="500">
+    <br>
+    <a href="/">Back to homepage</a>
+  </body>
+</html>

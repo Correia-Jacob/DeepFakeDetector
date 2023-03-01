@@ -1,0 +1,49 @@
+/* Set font family and default font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center the form on the page */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the form input */
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* Style the submit button */
+  form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the result image */
+  .result-img {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the result text */
+  .result-text {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
